@@ -1,14 +1,3 @@
- console.log("Connected");
- var toggle = document.querySelectorAll("#cardShow");
-
-for (var i = 0; i < toggle.length; i++) 
-{
-    toggle[i].addEventListener("click", function (){
-    document.getElementById("hide").classList.toggle("card-text-hide");
-   });
-};
-
-
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
