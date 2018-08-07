@@ -1,0 +1,603 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	margin: 0 auto;
+	background-color: white;
+	font-size: 100%;
+	height: 100%;
+}
+
+.logo
+{
+	position: absolute;
+	z-index: 1;
+	left: 25px;
+	top:10px;
+}
+.logo img
+{
+	max-width: 7vw;
+}
+
+.navbar
+{
+	margin: 0 auto;
+	padding: 0.7%;
+	background: linear-gradient(#009fe3, #007bff);
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar-link
+{
+	color: #9fa2a6 !important;
+}
+#crown
+{
+align-self: center;
+padding-left: 30px;
+padding-bottom: 3px;
+background-image: url(../images/crown_white.png);
+background-repeat: no-repeat;
+background-position: left;
+display: inline-block;
+}
+
+#crown:hover
+{
+background-image: url(../images/crown.png);
+}
+
+#landing
+{
+	max-width: 99.1vw;
+}
+
+.navbar-brand
+{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand img
+{
+	position: relative;
+	top:50px;
+}
+.nav-item
+{
+	font-size: 120%;
+}
+
+li a
+{
+	color: white !important;
+}
+
+.wrapper
+{
+	width: 100%;
+	text-align: center;
+}
+
+.spacingDiv
+{
+	margin-top: 50px;
+}
+.carouselImg
+{
+	max-width: 300px;
+	margin: 30px 0px;
+}
+
+.canTea
+{
+	margin: 0 0 30px 0;
+}
+
+.carousel-control-next i
+{
+	display: none;
+}
+
+.carousel-control-prev i
+{
+	display: none;
+}
+.carousel-indicators
+{
+	bottom: -40px;
+}
+.carousel-indicators li
+{
+	background-color: #009fe3;
+	height: 6px;
+}
+
+.carousel-indicators .active
+{
+	background-color: #004a98;
+}
+
+.contactContent
+{
+	width: 50%;
+}
+.contactWrapper
+{
+	padding-bottom: 50px;
+}
+
+.formWrapper label
+{
+	float: left;
+}
+
+footer
+{
+	width: 100%;
+	height: 30vh;
+	max-height: 300px;
+	background: linear-gradient(#009fe3, #007bff);
+	display: block;
+	margin-top:5vh;
+	position: relative;
+	bottom: 0;
+}
+
+footer .container
+{
+	margin-left: 0;
+	margin-right:0;
+}
+
+.center
+{
+	position: relative;
+	left:35%;
+	bottom: 75px;
+}
+
+.slogan
+{
+	left: 10px;
+}
+
+.slogan img 
+{
+	max-height: 15vh;
+	object-fit: contain;
+	position: absolute;
+	left: 13.9%;
+	bottom:70px;
+}
+
+.logoBottom img
+{
+	max-height: 8vw;
+	position: absolute;
+	bottom:70%;
+	left: 46%;
+}
+
+.socialMedia
+{
+	position: absolute;
+	font-size: 400%;
+	right: 13.9%;
+	bottom: 70px;
+}
+
+.socialMedia a i
+{
+	color: white;
+}
+
+.carousel-inner
+{
+	max-width: 100vw;
+}
+
+.bottomLine
+{
+	background-color: #004a98;
+	position: absolute;
+	bottom:1px;
+	color: white;
+	width: 100%;
+}
+
+.bottomLine p
+{
+	margin-top: 0.8rem;
+	margin-bottom: 0;
+}
+
+h1
+
+{
+	font-family: 'Wendy One', sans-serif;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	color: #004a98;
+}
+
+
+.instagramWrapper
+{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.pageUp
+{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	font-size: 350% !important;
+	z-index: 5;
+}
+
+.pageUp a
+{
+	color:#004a98;
+}
+
+span i
+{
+	color: #004a98;
+	font-size: 300%;
+}
+
+.col-sm p
+{
+	padding-bottom: 10%;
+}
+
+.about p
+{
+	padding-bottom: 0%;
+}
+
+.about
+{
+	text-align: left;
+}
+
+#heart
+{
+	max-width: 300px;
+}
+
+.colorChange
+{
+	color: #004a98;
+}
+.fontChange
+{
+	color: #004a98;
+	/* FONT HERE*/
+}
+
+@media only screen and (min-width: 300px)  and (max-width: 359px) 
+{
+	body
+	{
+		font-size: 90%;
+	}
+	.logo
+	{
+		display: none;
+	}
+    .nav-item
+	{
+		padding: 2%;
+	}
+	.carouselImg
+	{
+		max-width: 300px;
+		margin: 0;
+	}
+	.spacingDiv
+	{
+		margin-top: 0px;
+	}
+	#About
+	{
+		margin-top: 35px;
+	}
+	.instagramWrapper
+	{
+		width: 90%;
+	}
+	  .slogan img 
+	{
+		max-height: 10vh;
+		object-fit: contain;
+		position: absolute;
+		left: 20px;
+		bottom:70px;
+	}
+	.logoBottom img
+	{
+		max-height: 25vw;
+		position: absolute;
+		bottom:22vh;
+		left:37%;
+	}
+	 .socialMedia
+	{
+	font-size: 250%;
+	right: 20px;
+	bottom:80px;
+	visibility: visible;
+	}
+	.pageUp
+	{
+		display: none;
+	}
+}
+
+@media only screen  and (max-width: 360px) and (min-width: 358px)
+{
+	body
+	{
+		font-size: 90%;
+	}
+	.logo
+    {
+    	display: none;
+    }
+    .nav-item
+	{
+		padding: 2%;
+	}
+	.carouselImg
+	{
+		max-width: 300px;
+		margin: 0;
+	}
+	.spacingDiv
+	{
+		margin-top: 0px;
+	}
+	#About
+	{
+		margin-top: 35px;
+	}
+	.instagramWrapper
+	{
+		width: 90%;
+	}
+	  .slogan img 
+	{
+		max-height: 10vh;
+		object-fit: contain;
+		position: absolute;
+		left: 20px;
+		bottom:70px;
+	}
+	.logoBottom img
+	{
+		max-height: 25vw;
+		position: absolute;
+		bottom:22vh;
+		left:37%;
+	}
+	 .socialMedia
+	{
+	font-size: 300%;
+	right: 20px;
+	bottom:80px;
+	visibility: visible;
+	}
+	.pageUp
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) and (min-width: 361px)
+{
+	body
+	{
+		font-size: 90%;
+	}
+	.logo 
+    {
+    	display: none;
+    }
+    .nav-item
+	{
+		padding: 2%;
+	}
+	.carouselImg
+	{
+		max-width: 300px;
+		margin: 0;
+	}
+	.spacingDiv
+	{
+		margin-top: 0px;
+	}
+	#About
+	{
+		margin-top: 35px;
+	}
+	.instagramWrapper
+	{
+		width: 90%;
+	}
+	.slogan img 
+	{
+		max-height: 10vh;
+		object-fit: contain;
+		position: absolute;
+		left: 20px;
+		bottom:70px;
+	}
+	.logoBottom img
+	{
+		max-height: 25vw;
+		position: absolute;
+		bottom:73%;
+		left:38%;
+	}
+	.socialMedia
+	{
+	font-size:400%;
+	right: 20px;
+	bottom:80px;
+	visibility: visible;
+	}
+	.pageUp
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px) 
+{
+    .logo
+	{
+		display: none;
+	}
+    .nav-item
+	{
+		padding: 2%;
+	}
+		.carouselImg
+	{
+		max-width: 300px;
+		margin: 0;
+	}
+	.instagramWrapper
+	{
+		width: 90%;
+	}
+	  .slogan img
+	{
+		max-height: 13vh;
+		object-fit: contain;
+		position: absolute;
+		left: 20px;
+		bottom:70px;
+	}
+	.logoBottom img
+	{
+		max-height: 14vw;
+		position: absolute;
+		bottom:250px;
+		left:43%;
+	}
+	 .socialMedia
+	{
+		font-size: 500%;
+		right: 20px;
+		bottom:20px;
+		visibility: visible;
+	}
+	.pageUp
+	{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 801px)
+{
+	.logo img
+    {
+    	max-width: 10vw;
+    }
+
+	.instagramWrapper
+	{
+		width: 90%;
+	}
+	  .slogan img 
+	{
+		max-height: 13vh;
+		object-fit: contain;
+		position: absolute;
+		left: 20px;
+		bottom:70px;
+	}
+	.logoBottom img
+	{
+		max-height: 15vw;
+		position: absolute;
+		bottom:225px;
+		left:43%;
+	}
+	 .socialMedia
+	{
+		font-size: 500%;
+		right: 20px;
+		bottom:70px;
+	}
+}
+
+@media only screen and (max-width: 1390px) and (min-width: 1051px)
+{
+	.logo img
+    {
+    	max-width: 8vw;
+    }
+
+	.instagramWrapper
+	{
+		width: 90%;
+	}
+	  .slogan img 
+	{
+		max-height: 15vh;
+		object-fit: contain;
+		position: absolute;
+		left: 20px;
+		bottom:70px;
+	}
+	.logoBottom img
+	{
+		max-height: 10vw;
+		position: absolute;
+		bottom:160px;
+		left:45%;
+	}
+	 .socialMedia
+	{
+		font-size: 500%;
+		right: 20px;
+		bottom:70px;
+	}
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.6vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #004a98; 
+    border-radius: 10px;
+}
